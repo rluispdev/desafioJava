@@ -7,7 +7,7 @@ public class Main {
         double avaliableBalance = 2500.00;
 
         //Menu de Operações
-        String menu = """
+        String oparerations =  """
                 Operações
                 
                 1 - Consultar saldos
@@ -17,6 +17,11 @@ public class Main {
                 
                 Digite a opção desejada:
                 """;
+        System.out.println(oparerations);
+        int menu = 0;
+
+
+
 
 
 
