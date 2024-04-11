@@ -6,6 +6,7 @@ public class Main {
 //Banco de dados.
         String name = "Rafael Gonzaga";
         String accountType = "Corrente";
+
         double avaliableBalance = 2500.00;
 
         Scanner inputUser = new Scanner(System.in);
@@ -28,9 +29,21 @@ public class Main {
         switch (menu){
             case 1:
                 System.out.println("Seu saldo atual é de: " + avaliableBalance);
+                break;
+                
+                //Receber valor
+            case 2:
+                System.out.println("Qual é o valor que você vai receber?");
+                int receive = inputUser.nextInt();
+                  avaliableBalance += receive;
+
+                System.out.println("R$ " + receive + " foram adicionados na sua conta corrente.");
+                System.out.println("Saldo Atualizado: R$ " + avaliableBalance);
+                  break;
 
             default:
                 System.out.println("Essa opção não existe no momento.");
+                break;
         }
 
     }
