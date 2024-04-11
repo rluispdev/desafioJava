@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6f555e5-8e2e-4db5-918f-73eaeb4dca6e" name="Changes" comment="Criar a visualizacao do saldo.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a6f555e5-8e2e-4db5-918f-73eaeb4dca6e" name="Changes" comment="Receber valor.">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712834933825</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Receber valor.">
+      <option name="closed" value="true" />
+      <created>1712836960560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712836960560</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -96,6 +103,7 @@
     <MESSAGE value="Criar o menu de operações." />
     <MESSAGE value="Atualizar o menu de operações." />
     <MESSAGE value="Criar a visualizacao do saldo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar a visualizacao do saldo." />
+    <MESSAGE value="Receber valor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Receber valor." />
   </component>
 </project>

@@ -41,6 +41,15 @@ public class Main {
                 System.out.println("Saldo Atualizado: R$ " + avaliableBalance);
                   break;
 
+                  //Transferir Valor
+            case 3 :
+                System.out.println("Qual o valor que você deseja transferir?");
+                int transfer = inputUser.nextInt();
+                avaliableBalance -= transfer;
+
+                System.out.println("R$ " + transfer + " foram transferidos.");
+                System.out.println("Saldo Atualizado: R$ " + avaliableBalance);
+                break;
             default:
                 System.out.println("Essa opção não existe no momento.");
                 break;
