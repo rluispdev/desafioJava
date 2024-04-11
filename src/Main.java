@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -5,6 +7,8 @@ public class Main {
         String name = "Rafael Gonzaga";
         String accountType = "Corrente";
         double avaliableBalance = 2500.00;
+
+        Scanner inputUser = new Scanner(System.in);
 
         //Menu de Operações
         String oparerations =  """
@@ -18,14 +22,16 @@ public class Main {
                 Digite a opção desejada:
                 """;
         System.out.println(oparerations);
-        int menu = 0;
+        int menu = inputUser.nextInt();
 
+        //Vizualizar saldo.
+        switch (menu){
+            case 1:
+                System.out.println("Seu saldo atual é de: " + avaliableBalance);
 
-
-
-
-
-
+            default:
+                System.out.println("Essa opção não existe no momento.");
+        }
 
     }
 }
