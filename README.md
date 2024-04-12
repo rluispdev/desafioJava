@@ -9,7 +9,7 @@ Projeto  criado para como resolução do desafio do  Programa One Next Education
 - `Java` :`Visualização do saldo`
 - `Java` :`Enviar valor`
 - `Java` :`Receber valor`
-- 
+  
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``IntelliJ IDEA Software``
