@@ -1,17 +1,17 @@
 ![Template rluipdev]()
  # Resumo do projeto
-Projeto  criado para como resolução para o challenge do Programa One Next Education - um parceria da Oracle com a Alura.
+Projeto  criado para como resolução do desafio  Programa One Next Education - um parceria da Oracle com a Alura.
 
 ## 🔨 Etapas do projeto
-- `HTML` : `Criar a estrutura do Projeto.`   
-- `CSS`:`Criar um CSS customizado para exibicão na tela de cada dipositivo.` 
-- `JavaScript` :`Criar funcões e validações`
+- `Java` : `Inicializar dados do cliente.`   
+- `Java`:`Menu de opções` 
+- `Java` :`Visualização do saldo`
+- `Java` :`Enviar valor`
+- `Java` :`Receber valor`
 - 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``VS Code``
-- ``JavaScript``
-- ``CSS``
-- ``Gemini``
-- ``Inkscape``
-- ``Simulator - Xcode``
+- ``IntelliJ IDEA Software``
+- ``Java``
+- ``Luri``
+ 
