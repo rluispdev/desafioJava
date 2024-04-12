@@ -12,6 +12,6 @@ Projeto  criado para como resolução do desafio  Programa One Next Education - 
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``IntelliJ IDEA Software``
-- ``Java``
+- ``Java 17``
 - ``Luri``
  
