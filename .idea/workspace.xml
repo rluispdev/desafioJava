@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6f555e5-8e2e-4db5-918f-73eaeb4dca6e" name="Changes" comment="Criar o Loop">
+    <list default="true" id="a6f555e5-8e2e-4db5-918f-73eaeb4dca6e" name="Changes" comment="Criar o if para não entrar no loop de acordo com o case.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -15,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -112,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712844497472</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Criar o if para não entrar no loop de acordo com o case.">
+      <option name="closed" value="true" />
+      <created>1712918128918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712918128918</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +134,7 @@
     <MESSAGE value="Receber valor." />
     <MESSAGE value="Transferir valor." />
     <MESSAGE value="Criar o Loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar o Loop" />
+    <MESSAGE value="Criar o if para não entrar no loop de acordo com o case." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar o if para não entrar no loop de acordo com o case." />
   </component>
 </project>
