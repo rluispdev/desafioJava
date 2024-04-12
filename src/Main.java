@@ -10,9 +10,10 @@ public class Main {
         double avaliableBalance = 2500.00;
 
         Scanner inputUser = new Scanner(System.in);
+        boolean loop = true;
 
         //Vizualizar saldo.
-        while (true) {
+        while (loop) {
             //Menu de Operações
             String oparerations =  """
                 Operações
@@ -20,7 +21,7 @@ public class Main {
                 1 - Consultar saldos
                 2 - Receber valor
                 3 - Transferir valor
-                4 - Extrato
+                4 - Histórico da Moviventação
                 5 - Sair
                 
                 Digite a opção desejada:
@@ -58,7 +59,7 @@ public class Main {
                     break;
 
                 case 5:
-                    System.out.println("Obrigado por usar nosso banco! Até mais!");
+                    System.out.println("Você foi deslogado com sucesso!");
                     break;
 
                 default:
@@ -76,8 +77,12 @@ public class Main {
                             """
 
                     );
-
             }
+
+            if (menu == 5){
+                break;
+            }
+
             System.out.println("""
             ___________________________________________
             (1 - Sair       2 - Mostrar Menu Inicial)
